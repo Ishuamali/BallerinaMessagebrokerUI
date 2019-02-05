@@ -131,7 +131,6 @@ class Queue extends React.Component {
 	handleChange = (event) => {
 		this.setState({ columnToQuery: event.target.value });
 	};
-	onClickFunction() {}
 
 	render(props) {
 		const { classes } = this.props;

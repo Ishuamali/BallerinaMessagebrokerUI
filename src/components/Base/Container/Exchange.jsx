@@ -163,11 +163,10 @@ class Exchange extends React.Component {
 					<div>
 						<div>
 							<TextField
-								id="outlined-password-input"
+								id="outlinedinput"
 								label="Search"
 								className={classes.textField}
 								type="Search"
-								autoComplete="current-password"
 								margin="normal"
 								variant="outlined"
 								value={this.props.filterText}
