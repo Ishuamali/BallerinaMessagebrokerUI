@@ -166,7 +166,6 @@ class DrawerInterface extends React.Component {
 									backgroundColor: this.state.bgColorExchange,
 									color: this.state.foreColorExchange
 								}}
-								//backgroundColor={this.state.bgColorExchange}
 								className={classes.button}
 								onClick={this.onClickExchange}
 							>
@@ -200,7 +199,6 @@ class DrawerInterface extends React.Component {
 									backgroundColor: this.state.bgColorConsumer,
 									color: this.state.foreColorConsumer
 								}}
-								//backgroundColor={this.state.bgColorExchange}
 								className={classes.button}
 								onClick={this.onClickConsumer}
 							>

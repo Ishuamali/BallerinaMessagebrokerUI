@@ -26,7 +26,6 @@ import ExpansionPanelBindings from './specific details/Queues/Expansionpanel/Bin
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import axios from 'axios';
-import DialogQueueBindings from './specific details/Queues/Expansionpanel/Bindings/DialogQueueBindings';
 
 const drawerWidth = 240;
 const styles = (theme) => ({

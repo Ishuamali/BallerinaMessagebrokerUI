@@ -93,8 +93,6 @@ class Login extends React.Component {
 		} else {
 			window.confirm('incorrect username or password!');
 		}
-
-		console.log('logged in', this.state.isLoggedIn);
 	};
 
 	render(props) {
@@ -133,7 +131,6 @@ class Login extends React.Component {
 										}
 									}}
 								/>
-								{console.log('test', this.state.username)}
 							</Grid>
 						</Grid>
 						<br />
@@ -157,7 +154,6 @@ class Login extends React.Component {
 										}
 									}}
 								/>
-								{console.log('testpw', this.state.password)}
 							</Grid>
 						</Grid>
 						<br />

@@ -129,8 +129,6 @@ class Queue extends React.Component {
 	}
 
 	handleChange = (event) => {
-		//this.setState({ value: event.target.value });
-
 		this.setState({ columnToQuery: event.target.value });
 	};
 	onClickFunction() {}
@@ -178,7 +176,6 @@ class Queue extends React.Component {
 							<FormControl className={classes.formControl}>
 								<NativeSelect
 									value={this.state.columnToQuery}
-									//onChange={this.handleChange('age')}
 									onChange={this.handleChange}
 									name="age"
 									className={classes.selectEmpty}

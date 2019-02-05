@@ -132,8 +132,6 @@ class Exchange extends React.Component {
 	}
 
 	handleChange = (event) => {
-		//this.setState({ value: event.target.value });
-
 		this.setState({ columnToQuery: event.target.value });
 	};
 
@@ -175,12 +173,10 @@ class Exchange extends React.Component {
 								value={this.props.filterText}
 								ref="filterTextInput"
 								onChange={(e) => this.setState({ query: e.target.value })}
-								//onChange={this.handleChange.bind(this)}
 							/>
 							<FormControl className={classes.formControl}>
 								<NativeSelect
 									value={this.state.columnToQuery}
-									//onChange={this.handleChange('age')}
 									onChange={this.handleChange}
 									name="age"
 									className={classes.selectEmpty}
